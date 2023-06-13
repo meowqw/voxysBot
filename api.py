@@ -1,6 +1,6 @@
 import requests
-API_DOMAIN = 'http://voxys.meatqwtest.ga'
-# API_DOMAIN = 'http://127.0.0.1:8000'
+# API_DOMAIN = 'http://voxys.meatqwtest.ga'
+API_DOMAIN = 'http://80.87.194.13:2110'
 
 def post_client(client):
     response = requests.post(API_DOMAIN + '/api/client', client)
